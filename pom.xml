@@ -26,11 +26,11 @@
     </plugins>
   </build>
    <distributionManagement>
-        <repository>
+        <releaseRepository>
             <id>deployment</id>
             <name>Internal Releases</name>
             <url>http://nexus.com:8081/repository/akhila_release/</url>
-        </repository>
+        </releaseRepository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
