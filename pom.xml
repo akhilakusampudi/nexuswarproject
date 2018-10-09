@@ -26,15 +26,15 @@
     </plugins>
   </build>
    <distributionManagement>
-        <releaseRepository>
+        <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://nexus.com:8081/repository/akhila_release/</url>
-        </releaseRepository>
+            <url>http://nexus.com:8081/nexuswarproject/akhila_release/</url>
+        </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://nexus.com:8081/repository/akhila_snapshot/</url>
+            <url>http://nexus.com:8081/nexuswarproject/akhila_snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
